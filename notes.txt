@@ -1,0 +1,94 @@
+Frontend --> HTML
+	----------------------------
+	The html can be used to make the structure the of the page. 
+	The full form of html is hypertext markup language. 
+	The html is markup type language.  
+	
+	What is mean by hypertext?
+	----------------------------------
+	hyperText mean a text inside the another text.
+	
+	What is mean by markup language?
+	--------------------------------------------
+	The markup language uses the angular tag based (brackets.)
+	
+	Example:
+	<h1>  <h1 />
+	
+	There are total two types markup language.
+	
+	1. html
+	2. xml (Extensible markup language) 
+		--> To make the confguration
+		--> To transfer the data over the internet / server
+		--> The drawback is it slow in nature. 
+		--> To solve this problem we use json(javascript object notation)
+		
+	Q. Who developed the html?
+	------------------------------------------------------
+	The html developed by Tim Bearner Lee in 1991. In market the first html version came in 1995.
+	Tim Bearner Lee also develop www, http, url, html
+	
+	SEO --> Search Engine Optimization  --> keywords 
+	
+	google closes the SEO in 2009 ---> security reasons
+	
+	bytecode --> IoT 
+	
+	google ---> best IoT based company 
+	
+	www.bytecode.com  --> no traffic
+	
+	.webp  --> google
+	16mb  
+	300kb
+	
+	.jpg, .jpeg, .png,.gif, .bit
+	
+	HTML5  ---> html + css + js
+	HTML4/3  --> jquery + js
+
+=============================================================================================
+Basic Tags
+---------------------
+1. p --> paragraph --> It will display static information about the product , person or any object.  
+
+2. img ---> if i want to take images on web pages than i can use the tag called <img />
+			The img tag require some attributes that are listed below,
+				a) src --> source --> image location
+				b) alt --> alternative text 
+				c) width --> 
+				d) height 
+				e) map 
+
+3. a --> anchor tag --> To navigate between the pages. I want to navigate(switch) home page to about page. 
+
+Syntax:
+----------------------
+<a href="path" target="_self, _blank">About</a>
+
+href ---> hypertext reference
+
+
+4. pre: pre formatted text. We want to use as it is structure.
+
+html entites  --> https://www.toptal.com/designers/htmlarrows/symbols/
+
+5. marquee: If i want to move text or images or any object from left to right, right to left, top to bottom or bottom to top than i can use the marquee tag 
+
+The marquee has some attributes that are listed below,
+	1) direction --> left, right, up, down 
+	2) scrollamount --> It controls the speed. 
+	3) javascript event --> onmouseover --> to stop current object 
+	4) javascript event --> onmouseleave --> to start current object
+
+6. mark: This tag can be used in to highlight text.
+
+Note: Every html element has style.
+
+7. span: span is working as container.
+8. <b></b> and <strong></strong> --> to make the text bold
+9. <i></i> and <em></em>  --> to make text itelic
+10. <u></u> to draw the underline
+11. <hr> horizantal line
+------------------------------------------------------------------------------------------
