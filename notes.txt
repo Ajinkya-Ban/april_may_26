@@ -92,3 +92,42 @@ Note: Every html element has style.
 10. <u></u> to draw the underline
 11. <hr> horizantal line
 ------------------------------------------------------------------------------------------
+
+UL and OL tags:
+--------------------------------
+Q. What is the basic use of ul and ol tags?
+----------------------------------------------------------
+The ol and ul tags can be used in to create a dropdown menu. 
+
+1. UL -->(Unordered List):
+---------------------------------------
+- This is an Unordered list, by default it will display in bullets(disk).
+- This tag can be used in to display the information pointwise or we can also create the categroywise list. 
+- Suppose, we want to change disk into circle, square we need to pass one attribute called
+  as type attribute. The type attribute is depricated for ul tag. So my question is how i can change the type ?
+- To solve the above problem we use css property.
+		a) list-style-type 
+		b) list-style
+		c) list-style-image --> to take the image
+
+Q. how we can create nested ul? 
+------------------------------------------
+please check the Example
+
+OL -->(Ordered List):
+-------------------------------
+- This is an ordered list, by default it will display in numbers like 1,2,3.
+- This tag can be used in to display the information pointwise or we can also create the categroywise list. 
+- Suppose, we want to change numbers into alphabets, romans number we need to pass one attribute called as type attribute. The type attribute is not depricated for ol tag. 
+- Can we change type by using css in ol tag?
+	Yes, you can use the following css properties,
+		a) list-style-type 
+		b) list-style
+		c) list-style-image --> to take the image
+
+
+=======================================================================================
+
+Q. What is mean by sementic Tags?
+--------------------------------------------------
+SEO --> meta keywords
