@@ -127,7 +127,29 @@ OL -->(Ordered List):
 
 
 =======================================================================================
+Table Tag
+--------------------------
+database 
+	tables --> we can store the data in form of rows and columns. 
 
-Q. What is mean by sementic Tags?
---------------------------------------------------
-SEO --> meta keywords
+So, the table tag can be used for to display the data in structured format to the users.
+Second advantge of table tag is to make the proper alignment.
+Thrid advantage of table tag is, it can be used in to make the website layout. We use it before 10yrs ago. 
+
+The following are some tags used to make tables. 
+----------------------------------------------------
+1. table --> to make the table
+2. th --> table heading(columns)
+3. tr --> table row
+4. td --> table data 
+5. thead --> It is group of heading 
+6. tbody --> It is group of table rows
+
+I want to make the table of student, so the column names should be like this,
+1. SName 
+2. SAge 
+3. SMob 
+4. SCity 
+5. STotalMarks
+
+html5 + css 
