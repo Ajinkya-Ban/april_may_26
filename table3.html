@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rowspan and colspan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=SUSE:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "SUSE", sans-serif;
+      }
+      .container {
+        width: 80%;
+        min-height: 100px;
+        border: 1px solid lightgray;
+        margin: auto;
+        padding: 10px;
+        box-shadow:
+          rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+      .container h1 {
+        text-align: center;
+        background-color: #113f67;
+        padding: 8px;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0px 10px 5px gray;
+      }
+      .table-data {
+        width: 98%;
+        min-height: 100px;
+        /* border: 2px solid red; */
+        padding: 10px;
+      }
+      .table-data table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .table-data table,
+      th,
+      tr,
+      td {
+        border: 1px solid lightgray;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .table-data table th {
+        background-color: #34699a;
+        color: white;
+        padding: 10px;
+      }
+      .table-data table tr:hover {
+        background-color: #fdf5aa;
+        font-style: italic;
+      }
+      .table-data table td img {
+        padding: 5px;
+        border: 3px solid lightgray;
+        border-radius: 50%;
+      }
+      #edit {
+        width: 100px;
+        background-color: royalblue;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+      }
+      #del {
+        width: 100px;
+        background-color: tomato;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Marksheet Table</h1>
+      <div class="table-data">
+        <table>
+          <tr>
+            <th colspan="2">Name</th>
+
+            <th rowspan="2">Class</th>
+            <th colspan="2">Mob</th>
+            <th rowspan="2">Math</th>
+            <th rowspan="2">Science</th>
+            <th rowspan="2">English</th>
+            <th rowspan="2">Total Marks</th>
+            <th rowspan="2">Actions</th>
+          </tr>
+
+          <tr>
+            <th>FirstN</th>
+            <th>LastN</th>
+            <th>Pri_M</th>
+            <th>Sec_M</th>
+          </tr>
+
+          <tbody>
+            <tr>
+              <td>Sanjay</td>
+              <td>Sharma</td>
+
+              <td>B.Tech</td>
+              <td>8989898989</td>
+              <td>7878787878</td>
+              <td>55</td>
+              <td>75</td>
+              <td>36</td>
+              <td>166</td>
+              <td>
+                <a href="" id="edit">Edit</a>
+                <a href="" id="del">Delete</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

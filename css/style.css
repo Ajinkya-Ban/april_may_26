@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Strichpunkt+Sans:wght@400..900&display=swap");
+
+* {
+  font-family: "Strichpunkt Sans", sans-serif;
+}
+.container {
+  width: 80%;
+  min-height: 100px;
+  border: 1px solid lightgray;
+  margin: auto;
+  padding: 10px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.container h1 {
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 10px 5px 5px gray;
+}
+.form-data {
+  width: 98%;
+  min-height: 100px;
+  /* border: 2px solid red; */
+  padding: 10px;
+}
+.form-data table {
+  width: 100%;
+  /* border: 1px solid #000; */
+  border-collapse: collapse;
+}
+.form-data table,
+tr,
+td {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.td-width {
+  width: 20%;
+}
+.valid {
+  color: red;
+  font-style: italic;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="Email"] {
+  width: 60%;
+  padding: 6px;
+}
+.class {
+  width: 61.5%;
+  padding: 6px;
+}
+.add {
+  width: 60%;
+  padding: 6px;
+}

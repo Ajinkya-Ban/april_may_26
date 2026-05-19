@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Registration Form</h1>
+
+      <div class="form-data">
+        <form>
+          <table>
+            <tr>
+              <td class="td-width">
+                <label for="sname">Enter Student Name</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="sname"
+                  name="sname"
+                  placeholder="Student name here"
+                  autocomplete="off"
+                />
+                <span class="valid">(Name must be 30 character long)</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="m">Select Your Gender</label>
+              </td>
+              <td>
+                <input type="radio" id="m" name="gender" value="male" /> Male
+                <input type="radio" id="f" name="gender" value="female" />
+                Female
+                <input type="radio" id="o" name="gender" value="other" /> Other
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="age">Enter Your Age</label>
+              </td>
+              <td>
+                <input type="number" id="age" name="age" />
+                <span class="valid"
+                  >(Age must be in the range of 1 to 100)</span
+                >
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="birth">Select Birthdate</label>
+              </td>
+              <td>
+                <input type="date" id="birth" name="birth" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="email">Enter your Email</label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter valid email"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="class">Select Your Class</label>
+              </td>
+              <td>
+                <select class="class">
+                  <!-- <optgroup label="Pune">
+                    <option>City1</option>
+                    <option>City2</option>
+                    <option>City3</option>
+                    <option>City4</option>
+                  </optgroup>
+
+                  <optgroup label="Nashik">
+                    <option>City1</option>
+                    <option>City2</option>
+                    <option>City3</option>
+                    <option>City4</option>
+                  </optgroup> -->
+                  <option value="">Select Class</option>
+                  <option value="bca">BCA</option>
+                  <option value="bcs">BCS</option>
+                  <option value="btech">B.Tech</option>
+                  <option value="mtech">M.Tech</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="hob">Select your hobbies</label>
+              </td>
+              <td>
+                <input type="checkbox" id="Swmming" value="swim" /> Swmming
+                <input type="checkbox" id="reading" value="read" /> Reading
+                <input type="checkbox" id="dance" value="dance" /> Dancing
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="add">Enter full Address</label>
+              </td>
+              <td>
+                <textarea class="add" rows="5" id="add" name="add"></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-width">
+                <label for="add">Select Photo</label>
+              </td>
+              <td>
+                <input type="file" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

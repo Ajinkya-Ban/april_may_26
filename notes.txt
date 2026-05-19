@@ -139,7 +139,7 @@ Thrid advantage of table tag is, it can be used in to make the website layout. W
 The following are some tags used to make tables. 
 ----------------------------------------------------
 1. table --> to make the table
-2. th --> table heading(columns)
+2. th --> table heading(columns) --> font bold + text center
 3. tr --> table row
 4. td --> table data 
 5. thead --> It is group of heading 
@@ -152,4 +152,100 @@ I want to make the table of student, so the column names should be like this,
 4. SCity 
 5. STotalMarks
 
-html5 + css 
+rowspan and colspan 
+-----------------------------------
+can be used in to join rows or columns
+=========================================================================================
+Image Mapping
+------------------------------
+To create the clickable area on image is called as image Mapping.
+
+To perform image Mapping the html introduced two tags 
+	a) map 
+	b) area 
+In each map we create multiple areas.
+=====================================================================================
+audio and video
+----------------------
+<audio controls loop muted>
+	<source src="audio path" />
+</audio>
+
+<video controls autoplay loop muted>
+	<source src="" />
+</video>
+====================================================================================
+
+Form tag 
+------------------------------------
+What is the use of form?
+---------------------------------
+Form tag can be used in to collect the user data. 
+In html the form tag has some attributes which are listed below, 
+1. method: 
+	1. get  ---> to get the data from table 
+	2. post ---> to save the data inside table
+	3. put  ---> to update the data 
+	4. patch ---> partial update 
+	5. delete --> to delete the record. 
+
+	by default the html has get method.
+
+
+2. action 
+------------------------
+In action we pass page reference or endpoint. Action means where to go?
+	<form action="login.php">
+	</form>
+
+endpoint
+----------------------
+http://localhost:8080/login
+http://localhost:8080/add
+
+DRF  --> Postman / swagger tool
+
+<form action="/login"></form>
+
+3. enctype  --> form-data
+4. id 
+5. name 
+6. novalidate 
+7. autocomplete 
+
+Error Code / Status code 
+----------------------------------
+200 
+201 
+400
+500
+
+----------------------------------------------------------
+Student Registration
+----------------------------
+table 
+form 
+css 
+
+fields
+---------------------------
+Student Name  --> text 
+Gender		  --> radio button 
+Age 		  --> number 
+Birthdate     --> date 
+Email 		  --> email
+Mobile       --> number
+Class 		  --> select  -->tag
+Hobbies      --> checkbox
+Country 	 --> select tag
+State		 --> select tag
+District	--> text
+Taluka      --> text
+Address     --> textarea tag
+Upload Photo  --> file
+Submit button
+
+
+input type -->
+
+
