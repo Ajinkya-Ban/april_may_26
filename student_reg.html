@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -24,6 +28,7 @@
                   name="sname"
                   placeholder="Student name here"
                   autocomplete="off"
+                  class="text-shadow"
                 />
                 <span class="valid">(Name must be 30 character long)</span>
               </td>
@@ -131,6 +136,18 @@
               </td>
               <td>
                 <input type="file" />
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td>
+                <button class="submit">
+                  <i class="fa-solid fa-cloud-arrow-up fa-shake"></i> Submit
+                </button>
+                <button class="clear">
+                  <i class="fa-solid fa-trash fa-bounce"></i> Clear
+                </button>
               </td>
             </tr>
           </table>
